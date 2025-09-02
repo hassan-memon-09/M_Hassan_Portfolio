@@ -1,5 +1,6 @@
+// src/components/About.jsx
 import { motion } from 'framer-motion';
-
+import profilePic from '../img/Hassan.png'; // Ensure you have a profile picture in the specified path
 const About = () => {
   return (
     <section id="about" className="py-20 bg-slate-800">
@@ -16,8 +17,8 @@ const About = () => {
           <motion.img
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            src="your-photo.jpg" // Replace with your image
-            alt="Profile"
+            src={profilePic} // Replace with your actual photo, e.g., a profile picture
+            alt="Muhammad Hassan"
             className="rounded-full w-64 mx-auto"
           />
           <motion.p
@@ -25,7 +26,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             className="text-lg"
           >
-            Your bio here... Education, interests, etc.
+            Results-driven Full-Stack Developer with 1+ year of professional experience designing, developing, and deploying modern web applications. Skilled in creating responsive user interfaces with React.js, Next.js, and Tailwind CSS, and building secure, efficient backends using Node.js, Express.js, and NestJS. Experienced in real-time communication with Socket.IO, database design with MongoDB and MySQL, and deploying applications to cloud platforms. Adept at delivering scalable, user-focused solutions and mentoring others, with a strong commitment to clean, maintainable code and continuous learning. Open to relocation for better opportunities.
           </motion.p>
         </div>
       </div>

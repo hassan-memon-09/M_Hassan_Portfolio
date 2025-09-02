@@ -1,3 +1,4 @@
+// src/components/Contact.jsx (Updated with user's contact info)
 import { useForm } from 'react-hook-form';
 import { motion } from 'framer-motion';
 
@@ -12,6 +13,13 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-slate-800">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center gradient-text mb-10">Contact Me</h2>
+        <div className="text-center mb-8">
+          <p>Sukkur, Pakistan</p>
+          <p>Email: mhdhassan.dev@gmail.com</p>
+          <p>Phone: +92 310 8434140</p>
+          <p>GitHub: ihassanmemon</p>
+          <p>LinkedIn: Hassan-memon009</p>
+        </div>
         <motion.form
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
