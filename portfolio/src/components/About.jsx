@@ -1,6 +1,6 @@
 // src/components/About.jsx
 import { motion } from 'framer-motion';
-import profilePic from '../img/Hassan.png'; // Ensure you have a profile picture in the specified path
+import profilePic from '../img/Hassan_Pic.png'; // Ensure you have a profile picture in the specified path
 const About = () => {
   return (
     <section id="about" className="py-20 bg-slate-800">
