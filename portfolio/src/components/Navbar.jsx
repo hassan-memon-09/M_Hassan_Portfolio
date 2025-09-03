@@ -13,7 +13,7 @@ const Navbar = () => {
       className="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md py-4"
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="text-2xl font-bold gradient-text">YourName</div>
+        <div className="text-2xl font-bold gradient-text">Hassan</div>
         <div className="hidden md:flex space-x-6">
           {['Home', 'About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
             <Link
